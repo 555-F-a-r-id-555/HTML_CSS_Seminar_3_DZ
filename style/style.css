@@ -1,0 +1,113 @@
+/* Общие стили для всего документа */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: MyFont;
+    src: url("../font/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: MyFont2;
+    src: url("../font/Poppins-Thin.ttf");
+}
+
+/* Стили для фона и обертки */
+html {
+    width: 100%;
+    height: 100%;
+    background: url("../img/TravelTime.png") no-repeat center center;
+    background-size: cover;
+}
+
+.wrapper {
+    width: 100%;
+    /* max-width: 1440px; */
+    margin: 0 auto;
+    padding: 73px 155px 179px 155px;
+}
+
+/* Стили для навигации */
+.nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav li {
+    padding: 0 20px;
+    /* Уменьшил отступы */
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "MyFont", "Ariya", sans-serif;
+    /* font-family: Poppins; */
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+    white-space: nowrap;
+    margin-left: 50px;
+}
+
+/* Стили для контента */
+.content {
+    margin-top: 210px;
+}
+
+.travel h1 {
+    color: #fff;
+    font-family: "MyFont", "Ariya", sans-serif;
+    /* font-family: Poppins; */
+    font-size: 96px;
+    font-weight: 700;
+    white-space: nowrap;
+    /* в линию*/
+    margin-left: 220px;
+    margin-bottom: 24px;
+
+}
+
+.center p {
+    color: #fff;
+    text-align: center;
+    font-family: "MyFont2", "Ariya", sans-serif;
+    /* font-family: Poppins; */
+    font-size: 24px;
+    font-weight: 275;
+    line-height: 1.167;
+    margin-bottom: 32px;
+    /* Добавил отступ снизу */
+}
+
+/* Стили для кнопки */
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 160px;
+    /* Уменьшил отступ сверху */
+}
+
+.text {
+    color: #fff;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    background: #00B43D;
+    border: 1px solid #FEE4E2;
+    border-radius: 8px;
+    padding: 16px 62px;
+    cursor: pointer;
+}
+
+.text:hover {
+    background: #0056b3;
+    /* Измененный цвет фона при наведении */
+}
