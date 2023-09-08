@@ -25,9 +25,7 @@ html {
 
 .wrapper {
     width: 100%;
-    /* max-width: 1440px; */
-    margin: 0 auto;
-    padding: 73px 155px 179px 155px;
+    padding: 4% 10% 5% 10%;
 }
 
 /* Стили для навигации */
@@ -56,7 +54,7 @@ html {
 
 /* Стили для контента */
 .content {
-    margin-top: 210px;
+    margin-top: 8%;
 }
 
 .travel h1 {
@@ -65,10 +63,9 @@ html {
     /* font-family: Poppins; */
     font-size: 96px;
     font-weight: 700;
-    white-space: nowrap;
-    /* в линию*/
-    margin-left: 220px;
-    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -80,8 +77,9 @@ html {
     font-size: 24px;
     font-weight: 275;
     line-height: 1.167;
-    margin-bottom: 32px;
-    /* Добавил отступ снизу */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Стили для кнопки */
@@ -90,8 +88,7 @@ html {
     align-items: center;
     justify-content: center;
     gap: 12px;
-    margin-top: 160px;
-    /* Уменьшил отступ сверху */
+    margin-top: 30%;
 }
 
 .text {
