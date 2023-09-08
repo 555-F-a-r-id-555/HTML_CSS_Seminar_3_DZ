@@ -25,7 +25,7 @@ html {
 
 .wrapper {
     width: 100%;
-    padding: 4% 10% 5% 10%;
+    padding: 4% 15% 5% 10%;
 }
 
 /* Стили для навигации */
@@ -35,8 +35,7 @@ html {
 }
 
 .nav li {
-    padding: 0 20px;
-    /* Уменьшил отступы */
+    padding: 0% 5% 0% 5%;
 }
 
 .nav a {
@@ -48,13 +47,16 @@ html {
     font-size: 24px;
     font-weight: 500;
     line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     white-space: nowrap;
-    margin-left: 50px;
+    margin: 5% 10% 5% 10%;
 }
 
 /* Стили для контента */
 .content {
-    margin-top: 8%;
+    margin: 8% 5% 8% 10%;
 }
 
 .travel h1 {
@@ -66,7 +68,6 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .center p {
@@ -87,8 +88,8 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 12px;
-    margin-top: 30%;
+    gap: 5%;
+    margin-top: 33%;
 }
 
 .text {
@@ -98,9 +99,9 @@ html {
     font-weight: 500;
     line-height: 28px;
     background: #00B43D;
-    border: 1px solid #FEE4E2;
+    border: 2px solid #FEE4E2;
     border-radius: 8px;
-    padding: 16px 62px;
+    padding: 1.5% 8%;
     cursor: pointer;
 }
 
