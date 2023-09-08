@@ -32,10 +32,13 @@ html {
 .nav ul {
     list-style-type: none;
     display: flex;
+    justify-content: center;
+    /* Центрирование элементов по горизонтали */
 }
 
 .nav li {
-    padding: 0% 5% 0% 5%;
+    padding: 0% 5%;
+    /* Убрал margin */
 }
 
 .nav a {
@@ -43,7 +46,6 @@ html {
     color: #fff;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: "MyFont", "Ariya", sans-serif;
-    /* font-family: Poppins; */
     font-size: 24px;
     font-weight: 500;
     line-height: normal;
@@ -51,7 +53,6 @@ html {
     align-items: center;
     justify-content: center;
     white-space: nowrap;
-    margin: 5% 10% 5% 10%;
 }
 
 /* Стили для контента */
@@ -62,7 +63,6 @@ html {
 .travel h1 {
     color: #fff;
     font-family: "MyFont", "Ariya", sans-serif;
-    /* font-family: Poppins; */
     font-size: 96px;
     font-weight: 700;
     display: flex;
@@ -74,7 +74,6 @@ html {
     color: #fff;
     text-align: center;
     font-family: "MyFont2", "Ariya", sans-serif;
-    /* font-family: Poppins; */
     font-size: 24px;
     font-weight: 275;
     line-height: 1.167;
